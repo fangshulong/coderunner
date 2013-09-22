@@ -1,6 +1,6 @@
 using System;
 
-namespace Shape.Shape
+namespace Shape.Father
 {
 	public abstract class Shape { 
 		protected string color; 
