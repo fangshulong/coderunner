@@ -1,8 +1,8 @@
 using System;
 
-namespace Shape
+namespace Shape.Circle
 {
-	public class Circle : Shape { 
+	public class Circle : Shape.Shape { 
 		private double radius; 
 		public Circle( string color, double radius ) : base( color ) { 
 			this.radius = radius; 

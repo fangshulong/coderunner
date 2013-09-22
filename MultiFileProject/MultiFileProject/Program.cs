@@ -1,5 +1,6 @@
 using System;
-using Shape;
+using Shape.Shape;
+using Shape.Circle;
 
 namespace MultiFileProject
 {
