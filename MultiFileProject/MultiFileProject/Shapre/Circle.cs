@@ -1,6 +1,6 @@
 using System;
 
-namespace MultiFileProject
+namespace Shape
 {
 	public class Circle : Shape { 
 		private double radius; 

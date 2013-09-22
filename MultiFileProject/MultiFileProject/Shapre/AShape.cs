@@ -1,6 +1,6 @@
 using System;
 
-namespace MultiFileProject
+namespace Shape
 {
 	public abstract class Shape { 
 		protected string color; 
