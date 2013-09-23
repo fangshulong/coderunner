@@ -1,0 +1,11 @@
+Exception 所有异常对象的基类
+SystemException 运行时产生的所有错误的基类
+IndexOutOfRangeException 当一个数组的下标超出范围时运行时引发
+NullReferenceException 当一个空对象被引用时运行时引发
+InvalidOperationException 当对方法的调用对对象的当前状态无效时，由某些方法引发
+ArgumentException 所有参数异常的基类
+ArgumentNullException 在参数为空（不允许）的情况下，由方法引发
+ArgumentOutOfRangeException 当参数不在一个给定范围之内时，由方法引发
+InteropException 目标在或发生在CLR外面环境中的异常的基类
+ComException 包含COM 类的HRESULT信息的异常
+SEHException 封装win32 结构异常处理信息的异常
