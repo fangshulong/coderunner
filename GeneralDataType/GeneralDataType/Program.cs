@@ -4,7 +4,7 @@ namespace GeneralDataType
 {
 	class MainClass
 	{
-		public static void Main (string[] args)
+		public static void MainOld (string[] args)
 		{
 			//数组
 			int[] numbers; 
@@ -15,8 +15,6 @@ namespace GeneralDataType
 			String[,] citys = new String[2, 2];
 			// out = 4
 			Console.WriteLine (citys.Length);
-
-
 
 			char[][] letters = new char[26][];
 			for (int i = 0; i < 26; i ++) {
@@ -70,6 +68,10 @@ namespace GeneralDataType
 
 			// out = b1 = True, b2 = False
 			Console.WriteLine ("b1 = " + b1 + ", b2 = " + b2);
+
+			//String sss = new String ('1');
+			//string ssss = new string ();
+			int iii = new int ();
 
 			//string multiWords = "I am a developer.";
 			//Console.WriteLine ("words num == " + multiWords.Split(" ").Length);
