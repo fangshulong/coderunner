@@ -23,7 +23,7 @@ namespace GeneralDataType
 				bigAndSmall [0] = 'A';
 				bigAndSmall [1] = 'a';
 
-				letters [i] = new char[2];
+				letters [i] = bigAndSmall;
 			}
 
 			// out = 26
