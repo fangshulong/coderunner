@@ -16,14 +16,25 @@ namespace GeneralDataType
 			// out = 4
 			Console.WriteLine (citys.Length);
 
+
+
 			char[][] letters = new char[26][];
 			for (int i = 0; i < 26; i ++) {
 
-				char[] bigAndSmall = new char[2];
-				bigAndSmall [0] = 'A';
-				bigAndSmall [1] = 'a';
+				if (1 % 2 == 0) {
+					char[] bigAndSmall = new char[2];
+					bigAndSmall [0] = 'A';
+					bigAndSmall [1] = 'a';
 
-				letters [i] = bigAndSmall;
+					letters [i] = bigAndSmall;
+				} else {
+					char[] bigAndSmall = new char[3];
+					bigAndSmall [0] = 'C';
+					bigAndSmall [1] = 'c';
+					bigAndSmall [2] = 'C';
+
+					letters [i] = bigAndSmall;
+				}
 			}
 
 			// out = 26
